@@ -1,0 +1,75 @@
+collection(I) :- it is an interface which is used to represent group of indivisible objects as a single entity.
+collections is class.
+collection framework:-it defines several class and interface to represent group of element as single entity.
+9 key interface of collection
+1)Collection(I)
+------------------
+-Root of all interface
+ 
+Common method for collection Interface:-
+
+add()
+addAll()
+remove()
+removeAll()
+contains()
+containsAll()
+isEmpty()
+
+clear()
+clearAll()
+size()
+
+2)list(I)
+---------
+-child interface of collection
+-duplicates are allowed
+-insertation order is mentioned 
+implemented class
+*Arraylist
+*Linked List
+*vector
+*stacks 
+
+3)Set(I)
+----------
+-child interface of collection
+-duplicate are not allowed
+-insertion order is not mentioned 
+
+*hashSet
+*LinkHashset
+*TreeSet
+
+4)Queue
+--------
+child interface of collection Interface
+-first in first out 
+-insertion order mentioned 
+-duplicated are allowed
+
+*ArrayQueue
+*LinkedQueue
+*priorityQueue
+
+5)Map(I)
+-it is not child interface of collection
+-represent group of values in key and value pair
+-duplicate keys are not allowed values are allowed
+
+*hashmap
+*LinkedHashmap
+*treeMap
+
+ARRAYLIST
+------------
+- it is resizable array
+-duplicated are allowed
+-insertion ordered is preserved 
+-can insert hetroginious object
+
+
+
+
+
+
